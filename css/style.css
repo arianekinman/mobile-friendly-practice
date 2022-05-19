@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.turquoise_color_font {
+    color: turquoise;
+}
+#first_section {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#second_section {
+    text-align: right;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 10%;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+}
